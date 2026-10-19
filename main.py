@@ -3,7 +3,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-
+# json input handling
+# post req
+# intro to pydantic
 class User(BaseModel):
     name: str
     age: int
