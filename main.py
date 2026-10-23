@@ -4,4 +4,6 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello World"}
+    return {'name':'mohit',
+            'age':24,
+            'password':'1234'}
